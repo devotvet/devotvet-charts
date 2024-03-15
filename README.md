@@ -31,6 +31,6 @@ helm delete my-<chart-name>
 
 Hashicorp - Vault
 
-```bash
+<!-- ```bash
 git submodule add https://github.com/hashicorp/vault-helm.git ./charts/vault
-```
+``` -->
