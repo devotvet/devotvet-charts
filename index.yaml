@@ -4,6 +4,33 @@ entries:
   - annotations:
       charts.openshift.io/name: HashiCorp Vault
     apiVersion: v2
+    appVersion: 1.16.1
+    created: "2024-04-11T13:32:38.072673755Z"
+    description: Official HashiCorp Vault Chart
+    digest: 461f4414510afee3e9c022eddab8c9e84375ccbccb6507943301281fac39dec4
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.20.0-0'
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - https://github.com/devotvet/devotvet-charts/releases/download/vault-0.28.0/vault-0.28.0.tgz
+    version: 0.28.0
+  - annotations:
+      charts.openshift.io/name: HashiCorp Vault
+    apiVersion: v2
     appVersion: 1.15.2
     created: "2024-03-15T15:19:47.521099607Z"
     description: Official HashiCorp Vault Chart
@@ -28,4 +55,4 @@ entries:
     urls:
     - https://github.com/devotvet/devotvet-charts/releases/download/vault-0.27.0/vault-0.27.0.tgz
     version: 0.27.0
-generated: "2024-03-15T15:19:47.521108794Z"
+generated: "2024-04-11T13:32:38.07268704Z"
